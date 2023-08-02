@@ -1,0 +1,54 @@
+head{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultado {
+    margin-top: -220px;
+    margin-right: 120px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.container p{
+    border: solid black;
+    border-radius: 10px;
+    padding-right: 90px;
+    
+}
+
+.hab {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.Red{
+    color: red;
+}
+
+.Yellow{
+    color: yellow;
+}
+
+.Green{
+    color: green;
+}
+
+.Blue{
+    color: blue;
+}
